@@ -2,19 +2,22 @@
 # EXEMPLO DE APLICAÇÃO COM ASP CORE E REACT:
 
 ##TECNOLOGIAS UTILIZADAS/DEMONSTRADAS:
-Abordagem DDD
-API REST
-ASP Net Core com Entity Framework
-React com Axios
-Node JS
-Yarn
-Typescript (TSX)
-JavaScript com Ajax (JSX)
-Estilização CSS
-Estilização com SASS
-Componentização
-Visual Studio 2019
-Visual Studio Code
+Abordagem DDD<br/>
+API REST<br/>
+ASP Net Core com Entity Framework<br/>
+React com Axios<br/>
+Node JS<br/>
+Yarn<br/>
+Typescript (TSX)<br/>
+JavaScript com Ajax (JSX)<br/>
+Autenticação básica (user e senha)<br/>
+Autorização com JWT (user e senha)<br/>
+Swagger (com autorização e autenticação)<br/>
+Estilização CSS<br/>
+Estilização com SASS<br/>
+Componentização<br/>
+Visual Studio 2019<br/>
+Visual Studio Code<br/>
 
 **INSTRUÇÕES:**
 
@@ -50,22 +53,22 @@ Diretório para armezar logs da aplicação (a ser implementado).<br/><br/>
 
 * API desenvolvido com a arquitetura DDD, onde:
 ***DOMAIN***
-=> Domain \ project.Domain \ Entities : (class) entidade
-=> Domain \ project.Domain.Core \ Interfaces \ Repositories : (Interface) IRepository
-=> Domain \ project.Domain.Core \ Interfaces \ Services : (Interface) IService
-=> Domain \ project.Domain.Services : (class) Service
+=> Domain \ project.Domain \ Entities : (class) entidade<br/>
+=> Domain \ project.Domain.Core \ Interfaces \ Repositories : (Interface) IRepository<br/>
+=> Domain \ project.Domain.Core \ Interfaces \ Services : (Interface) IService<br/>
+=> Domain \ project.Domain.Services : (class) Service<br/>
 
 ***INFRAESTRUCTURE***
-=> Infraestructure \ project.Infraestructure \ Data \ SqlContext -> Deve-se Adicionar o Contexto do OBJ
-=> Infraestructure \ project.Infraestructure \ Data \ Repositories : (Class) Repository 
-=> Infraestructure \ project.Infraestructure \ CrossCutting \ IOC \ ConfigurationIOC -> Deve-se registrar os Builders
+=> Infraestructure \ project.Infraestructure \ Data \ SqlContext -> Deve-se Adicionar o Contexto do OBJ<br/>
+=> Infraestructure \ project.Infraestructure \ Data \ Repositories : (Class) Repository <br/>
+=> Infraestructure \ project.Infraestructure \ CrossCutting \ IOC \ ConfigurationIOC -> Deve-se registrar os Builders<br/>
 
 ***APLICATION***
-=> Application \ projetc.Application \ DTOS : (class) DTO 
-=> Application \ projetc.Application \ Interfaces \ Mappers : (Interface) IMapper
-=> Application \ projetc.Application \ Interfaces : (Interface) IApplicationService
-=> Application \ projetc.Application \ Mappers : (class) Mapper
-=> Application \ projetc.Application : (class) ApplicationService
+=> Application \ projetc.Application \ DTOS : (class) DTO <br/>
+=> Application \ projetc.Application \ Interfaces \ Mappers : (Interface) IMapper<br/>
+=> Application \ projetc.Application \ Interfaces : (Interface) IApplicationService<br/>
+=> Application \ projetc.Application \ Mappers : (class) Mapper<br/>
+=> Application \ projetc.Application : (class) ApplicationService<br/>
 
 ##BANCO DE DADOS:
 **INFORMAÇÕES:**
@@ -74,11 +77,11 @@ Diretório para armezar logs da aplicação (a ser implementado).<br/><br/>
 
 * A tabela do Usuário é a do EF.<br/><br/>
 
-* A tabela Contatos possui o seguintes atributos:
-Id int Identity AutoIncrement primary key not null,
-Nome nvarchar(50) not null,
-Nascimento DateTime not null,
-Email varchar(80) nullable,
-DataCadastro DateTime not null,
-DataAlteracao DateTime not null,
-IsActive bit" not null
+* A tabela Contatos possui o seguintes atributos:<br/>
+Id int Identity AutoIncrement primary key not null,<br/>
+Nome nvarchar(50) not null,<br/>
+Nascimento DateTime not null,<br/>
+Email varchar(80) nullable,<br/>
+DataCadastro DateTime not null,<br/>
+DataAlteracao DateTime not null,<br/>
+IsActive bit" not null<br/>
