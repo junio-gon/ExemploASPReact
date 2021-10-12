@@ -1,7 +1,7 @@
 
 # EXEMPLO DE APLICAÇÃO COM ASP CORE E REACT:
 
-##TECNOLOGIAS UTILIZADAS/DEMONSTRADAS:
+##TECNOLOGIAS UTILIZADAS/DEMONSTRADAS:<br/>
 Abordagem DDD<br/>
 API REST<br/>
 ASP Net Core com Entity Framework<br/>
@@ -51,19 +51,19 @@ Diretório para armezar logs da aplicação (a ser implementado).<br/><br/>
 ## BACKEND:
 **INFORMAÇÕES:**
 
-* API desenvolvido com a arquitetura DDD, onde:
-***DOMAIN***
+* API desenvolvido com a arquitetura DDD, onde:<br/><br/>
+***DOMAIN***<br/>
 => Domain \ project.Domain \ Entities : (class) entidade<br/>
 => Domain \ project.Domain.Core \ Interfaces \ Repositories : (Interface) IRepository<br/>
 => Domain \ project.Domain.Core \ Interfaces \ Services : (Interface) IService<br/>
 => Domain \ project.Domain.Services : (class) Service<br/>
 
-***INFRAESTRUCTURE***
+***INFRAESTRUCTURE***<br/>
 => Infraestructure \ project.Infraestructure \ Data \ SqlContext -> Deve-se Adicionar o Contexto do OBJ<br/>
 => Infraestructure \ project.Infraestructure \ Data \ Repositories : (Class) Repository <br/>
 => Infraestructure \ project.Infraestructure \ CrossCutting \ IOC \ ConfigurationIOC -> Deve-se registrar os Builders<br/>
 
-***APLICATION***
+***APLICATION***<br/>
 => Application \ projetc.Application \ DTOS : (class) DTO <br/>
 => Application \ projetc.Application \ Interfaces \ Mappers : (Interface) IMapper<br/>
 => Application \ projetc.Application \ Interfaces : (Interface) IApplicationService<br/>
