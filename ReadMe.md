@@ -1,7 +1,7 @@
 
 # EXEMPLO DE APLICAÇÃO COM ASP CORE E REACT:
 
-##TECNOLOGIAS UTILIZADAS/DEMONSTRADAS:
+## TECNOLOGIAS UTILIZADAS/DEMONSTRADAS:
 Abordagem DDD
 API REST
 ASP Net Core com Entity Framework
@@ -31,7 +31,7 @@ com outros consoles (git-bash, Power Shell, Shell, CMD entre outros):
 
 2) Caso a API seja executada em porta diferente, deve-se, alterar o arquivo api.ts (\prj_teste\frontend\src\services\api.ts) com o endereço correto
 
-##FRONTEND:
+## FRONTEND:
 **INFORMAÇÕES:**
 * Criação de Páginas:
 Deve-se criar um diretório em /src/pages/ refente ao elemento a ser trabalhando na página, e dentro deste diretório as referidas páginas, exemplo, o diretório User contém as páginas CreateUser.tsx e Login.tsx.<br/><br/>
@@ -45,7 +45,7 @@ Iserir as interfaces no diretório src/interfaces (poderá ser criado diretório
 * src/logs:
 Diretório para armezar logs da aplicação (a ser implementado).<br/><br/>
 
-##BACKEND:
+## BACKEND:
 **INFORMAÇÕES:**
 
 * API desenvolvido com a arquitetura DDD, onde:
@@ -67,7 +67,7 @@ Diretório para armezar logs da aplicação (a ser implementado).<br/><br/>
 => Application \ projetc.Application \ Mappers : (class) Mapper
 => Application \ projetc.Application : (class) ApplicationService
 
-##BANCO DE DADOS:
+## BANCO DE DADOS:
 **INFORMAÇÕES:**
 
 * Para a construção desta aplicação foi utilizado o ORM do Entity Code First, com seu Scafold e migrations.<br/><br/>
